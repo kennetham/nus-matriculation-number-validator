@@ -28,6 +28,6 @@ def calculate_nus_matric_number(id)
       sum += weights[i].to_i * digits[i].to_i
     end
 
-    match.to_s + 'YXWURNMLJHEAB' [sum % 13];
+    match.to_s + 'YXWURNMLJHEAB' [sum % 13]
   end
 end
